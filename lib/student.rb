@@ -1,7 +1,7 @@
 require_relative './user.rb'
 
 class Student < User
-  attr_accessor :knowledge, :string
+  attr_accessor  :string
 
   def initialize
     @knowledge = []
